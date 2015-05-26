@@ -1,0 +1,41 @@
+/*
+* Copyright 2015. Elliemae Inc.
+* Autor: Adiel Hercules
+* Web Developer
+* twitter: @adielhercules
+*/
+
+.fullApplicationForm {
+background-color: #BEBEBE;
+  padding: 60px 0px 60px;
+}
+
+.welcomeScreen {
+font-family: 'Open Sans',sans-serif;
+}
+
+@media only screen and (max-width: 580px){
+.welcomeScreen{
+width: 100% !important;
+border: none !important;
+box-shadow: none !important;
+border-radius: 0px !important;
+margin: 0px 0px -50px !important;
+}
+.fullApplicationForm{
+margin: 0px;
+padding: 5px;
+height: 100%;
+margin-top: 0px;
+width: 100%;
+}
+
+    .welcomeScreen {
+        padding: 20px 30px 40px;
+        border-radius: 0px;
+    }
+
+
+
+
+}
